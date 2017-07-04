@@ -27,7 +27,6 @@ function successCall(data) {
     var itemPageId = item.id.videoId;
     var createPageUrl = 'https://www.youtube.com/watch?v=' + itemPageId;
     return $('#photos').append(
-      '<a href="#" data-featherlight="#mylightbox"><img src="' + itemThumbnailMediumUrl + '"/></a>' +
       '<a href="' + createPageUrl + '" target="_blank">' + '<img src="' +  itemThumbnailMediumUrl + '"/></a>'
     );
   });

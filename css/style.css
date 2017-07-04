@@ -19,6 +19,11 @@
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  opacity: 0.25;
+}
+
+#photos img:hover {
+  opacity: 1;
 }
 
 @media (max-width: 1200px) {
